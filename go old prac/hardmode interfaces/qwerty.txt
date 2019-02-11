@@ -1,0 +1,1 @@
+This is a higly simplified sample for the hard code interface program

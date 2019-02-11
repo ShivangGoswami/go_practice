@@ -1,0 +1,77 @@
+[‎11/‎29/‎2018 5:19 PM]  Deepti_Seshadri:  
+Hi Shivang, Gaurav
+how is Golang training going?
+you both have started yesterday rt?
+ 
+[‎11/‎29/‎2018 5:20 PM]  Shivang Goswami:  
+yes maam
+ 
+[‎11/‎29/‎2018 5:20 PM]  Gaurav Walecha:  
+Yes
+ 
+[‎11/‎29/‎2018 5:20 PM]  Shivang Goswami:  
+it's going pretty good
+ 
+[‎11/‎29/‎2018 5:21 PM]  Deepti_Seshadri:  
+so you can complete the Udemy course by Tuesday?
+ 
+[‎11/‎29/‎2018 5:21 PM]  Gaurav Walecha:  
+Yes maam for sure
+ 
+[‎11/‎29/‎2018 5:21 PM]  Deepti_Seshadri:  
+trust you are doing hands on rt?
+ 
+[‎11/‎29/‎2018 5:21 PM]  Shivang Goswami:  
+yes we are
+ 
+[‎11/‎29/‎2018 5:21 PM]  Gaurav Walecha:  
+yes
+ 
+[‎11/‎29/‎2018 5:23 PM]  Shivang Goswami:  
+we will wrap up the udemy course by tuesday
+ 
+[‎11/‎29/‎2018 5:24 PM]  Deepti_Seshadri:  
+ok, i would want you to present the hands on done as well as your knwoledge in first 1-2 topics by mid next week
+ 
+[‎11/‎29/‎2018 5:26 PM]  Shivang Goswami:  
+1-2 topics as in section 1 and 2 of udemy course?
+ 
+[‎11/‎29/‎2018 5:41 PM]  Deepti_Seshadri:  
+1 topic - the basics, how you built and deployed your first application. 2nd topic - Data with Structs and Maps
+i leave it to you
+ 
+[‎11/‎29/‎2018 5:42 PM]  Deepti_Seshadri:  
+it's like you are presenting your knowledge and understanding of the topic, which will help the team.
+and if while you are going you, you need any clarifications, pls consolidate and share with me
+ 
+[‎11/‎29/‎2018 5:44 PM]  Deepti_Seshadri:  
+while you are going through
+typo
+ 
+[‎11/‎29/‎2018 5:45 PM]  Shivang Goswami:  
+ok
+it is a screen presentation kinda thing or more of a talk over the phone?
+ 
+[‎11/‎29/‎2018 5:51 PM]  Deepti_Seshadri:  
+screen presentation on webex
+showing your actual application
+and you can explain how you have built it, 
+ 
+[‎11/‎29/‎2018 5:54 PM]  Shivang Goswami:  
+ok
+ 
+[‎11/‎29/‎2018 5:56 PM]  Gaurav Walecha:  
+maam how can we both do that screen presentation on webex at the same time ? Or there will be seperate timings for that ?
+ 
+[‎11/‎29/‎2018 6:08 PM]  Deepti_Seshadri:  
+separate session, dont worry on those things
+prepare well and be comfortable with the topic
+want you to learn well and this gives you an oppty to showcase what you have learnt and enable others in the team too
+we can plan for Wed and Thurs next week
+ 
+[‎11/‎29/‎2018 6:09 PM]  Gaurav Walecha:  
+Alright
+ 
+[‎11/‎29/‎2018 6:09 PM]  Shivang Goswami:  
+ya sure
+ 
