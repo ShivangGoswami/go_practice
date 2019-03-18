@@ -13,7 +13,7 @@ type ColoredPoint struct {
 	Color color.RGBA
 }
 
-func (p *Point) Distance(q Point) float64 {
+func (p Point) Distance(q Point) float64 {
 	dX := q.X - p.X
 	dY := q.Y - p.Y
 	return math.Sqrt(dX*dX + dY*dY)
@@ -25,14 +25,24 @@ func (p *Point) ScaleBy(factor float64) {
 }
 
 func main() {
-	red := color.RGBA{255, 0, 0, 255}
-	blue := color.RGBA{0, 0, 255, 255}
-	var p = ColoredPoint{Point{1, 1}, red}
-	var q = ColoredPoint{Point{5, 4}, blue}
-	fmt.Println(p.Distance(q.Point))
-	p.ScaleBy(2)
-	p.ScaleBy(2)
-	fmt.Println(p.Distance(q.Point))
+	//Part 1
+	// var cp ColoredPoint
+	// cp.X = 1
+	// fmt.Println(cp.Point.X)
+	// cp.Point.Y = 2
+	// fmt.Println(cp.Y)
+
+	//part 2
+	// red := color.RGBA{255, 0, 0, 255}
+	// blue := color.RGBA{0, 0, 255, 255}
+	// var p = ColoredPoint{Point{1, 1}, red}
+	// var q = ColoredPoint{Point{5, 4}, blue}
+	// fmt.Println(p.Distance(q.Point))
+	// p.ScaleBy(2)
+	// q.ScaleBy(2)
+	// fmt.Println(p.Distance(q.Point))
+
+	//Part3
 }
 
 func init() {
@@ -46,22 +56,22 @@ func init() {
 	scale := (*Point).ScaleBy
 	scale(&p, 2)
 	fmt.Println(p)
-	fmt.Printf("%t\n", scale)
+	fmt.Printf("%T\n", scale)
 }
 
-func init() {
-	red := color.RGBA{255, 0, 0, 255}
-	blue := color.RGBA{0, 0, 255, 255}
+// func init() {
+// 	red := color.RGBA{255, 0, 0, 255}
+// 	blue := color.RGBA{0, 0, 255, 255}
 
-	type ColoredPoint struct {
-		*Point
-		Color color.RGBA
-	}
+// 	type ColoredPoint struct {
+// 		*Point
+// 		Color color.RGBA
+// 	}
 
-	p := ColoredPoint{&Point{1, 1}, red}
-	q := ColoredPoint{&Point{5, 4}, blue}
-	fmt.Println(p.Distance(*q.Point))
-	q.Point = p.Point
-	p.ScaleBy(2)
-	fmt.Println(*p.Point, *q.Point)
-}
+// 	p := ColoredPoint{&Point{1, 1}, red}
+// 	q := ColoredPoint{&Point{5, 4}, blue}
+// 	fmt.Println(p.Distance(*q.Point))
+// 	q.Point = p.Point
+// 	p.ScaleBy(2)
+// 	fmt.Println(*p.Point, *q.Point)
+// }
