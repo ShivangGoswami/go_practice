@@ -1,4 +1,3 @@
-//Netcat1 is a read-only TCP client
 package main
 
 import (
@@ -13,8 +12,18 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer conn.Close()
-	mustCopy(os.Stdout, conn)
+	done := make(chan struct{})
+	go func() {
+		io.Copy(os.Stdout, conn)
+		log.Println("done")
+		done <- struct{}{}
+	}()
+	mustCopy(conn, os.Stdin)
+	if tcpconn, ok := conn.(*net.TCPConn); ok {
+		tcpconn.CloseWrite()
+	}
+	// conn.Close()
+	<-done
 }
 
 func mustCopy(dst io.Writer, src io.Reader) {
