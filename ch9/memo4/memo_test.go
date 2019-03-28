@@ -3,7 +3,7 @@ package memo_test
 import (
 	"testing"
 
-	"../memo1"
+	"../memo4"
 	"../memotest"
 )
 
