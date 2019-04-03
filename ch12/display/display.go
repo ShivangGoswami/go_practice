@@ -32,7 +32,7 @@ func display(path string, v reflect.Value) {
 		if v.IsNil() {
 			fmt.Printf("%s = nil\n", path)
 		} else {
-			display(fmt.Sprintf("(%s)", path), v.Elem())
+			display(fmt.Sprintf("(*%s)", path), v.Elem())
 		}
 	case reflect.Interface:
 		if v.IsNil() {
