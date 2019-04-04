@@ -36,6 +36,12 @@ func Test(t *testing.T) {
 	}
 	t.Logf("Marshal()= %s\n", data)
 
+	var movie Movie
+	if err := Unmarshal(data, &movie); err != nil {
+		t.Fatalf("Unmarshal failed: %v",err)
+	}
+	t.Logf("Unmarshal() = %+v\n",movie)
+
 	data, err = MarshalIndent(strangelove)
 	if err != nil {
 		t.Fatal(err)
